@@ -1,8 +1,8 @@
 FROM openjdk:8-jre-alpine
 LABEL maintainer="felixlohmeier@opencultureconsulting.com"
-# OpenRefine 3.5.0
+# OpenRefine 3.5.2
 
-ENV OR_URL https://github.com/OpenRefine/OpenRefine/releases/download/3.5.0/openrefine-linux-3.5.0.tar.gz
+ENV OR_URL https://github.com/OpenRefine/OpenRefine/releases/download/3.5.2/openrefine-linux-3.5.2.tar.gz 
 
 WORKDIR /app
 
